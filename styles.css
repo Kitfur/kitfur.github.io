@@ -140,3 +140,8 @@ hr {
     width: 100%;
   }
 }
+
+button{
+    color: #eee;
+    background-color: firebrick;
+}
