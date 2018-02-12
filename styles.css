@@ -137,4 +137,6 @@ button{
     color: #eee;
     background-color: firebrick;
     width: 15%;
+    display: inline-grid;
+    float: left;
 }
