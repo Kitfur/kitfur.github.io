@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html class="parallax">
 	<head>
 		<title>Kitfur|Home</title>
 		<link rel='stylesheet' href='styles.css'>
         <style>
-body, html {
-    height: 100%;
-}
-.parallax {
-    background-image: url('BG%20image.jpg');
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+            body, html {
+                height: 100vh;
+            }
+            .parallax {
+                background-image: url("BG%20image.jpg");
+                height: 100%; 
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            h1, h2 {
+                margin: 0;
+            }
         </style>
+        
 	</head>
-
     
-    <!--linear-gradient(270deg, rgb(255,140,80) 0%, rgb(205, 90, 30) 100%);-->
-    
-<body>
+    <body>
+        
+        <div>
 		<nav>
             <a href="index.html" style = "border: 2px; background-color: firebrick; color:#eee; background-size: 20%,10px;">Home</a>
             <a href="about.html" style = "border: 2px; background-color: firebrick; color:#eee; background-size: 20%,10px;">About</a>
@@ -31,7 +34,20 @@ body, html {
                 </nav>
 		<h1>Welcome to Kitfur's Website</h1>
 		<h2>The official home of anything Kitfur</h2>
-
+        <h3>Check out my photos on my gallery!</h3>
+        <br>
+            <div class="news-wrapper">
+                <h4 style="object-position: center;">News</h4>
+                <div class="newsa1">
+                    <h5>Website is a work in progress!</h5>
+                    <p>Welcome everyone to my new website! I am now officially working on it! Thanks to Github for hosting it for me!</p>
+                    </div>
+                <div class="newsa2">
+                    <h5>Im a furry!</h5>
+                    <p>OWO</p>
+                    </div>
+            </div>
+            </div>
 	</body>
 
 </html>
